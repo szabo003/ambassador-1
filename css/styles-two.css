@@ -1,0 +1,164 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.address {
+  background-color: white;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.header{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size: 150px;
+  text-shadow: 5px 5px 10px black;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+}
+
+.am {
+  position: absolute;
+  top: 10%;
+  left:1%;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-gap: 100px;
+  position: absolute;
+  top: 5%;
+  right:1%;
+  overflow: hidden;
+
+}
+
+.box {
+   padding: 20px;
+   font-size: 150%;
+   font-weight: 200;
+   font-family: acumin-pro, sans-serif;
+   font-weight: 100;
+   color: #DA8427;
+}
+
+.largetextmenu {
+  font-family: amador, sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 2%;
+  margin: 4%;
+}
+
+.wrap2 {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  grid-gap: 120px;
+  overflow: hidden;
+  background-color: black;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin: 1%;
+
+}
+
+.box2 {
+   font-size: 120%;
+   font-weight: 200;
+   font-family: acumin-pro, sans-serif;
+   font-weight: 100;
+   color: #DA8427;
+   overflow: hidden;
+
+}
+
+.LARGEWORD{
+  margin-left: 2%;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #DA8427;
+  text-align: left;
+}
+
+.Appetizers {
+  margin: 1%;
+  align-content: left;
+  overflow: hidden;
+}
+.mainsubject {
+  margin-left: 3%;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #DA8427;
+  margin: 1%;
+  overflow: hidden;
+
+
+}
+
+.mainfont {
+  margin-left: 4%;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  overflow: hidden;
+}
+.Cocktails {
+margin-top: 5%;
+}
+
+
+.color {
+color: #DA8427;
+}
+footer {
+  position: bottom;
+  bottom: 50%;
+  padding:1%;
+  margin-top: 200px;
+  background-color: black;
+  color: white;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.jump {
+  text-align: center;
+  color: #DA8427;
+}

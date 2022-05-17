@@ -1,0 +1,156 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link {
+  color: #DA8427;
+}
+
+a:visited {
+  color: black;
+}
+
+
+.address {
+  background-color: white;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.header{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size: 150px;
+  text-shadow: 5px 5px 10px black;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+}
+
+.opacitybox {
+  padding-top: 2%;
+  height: 200px;
+  width: 300px;
+background-color: black;
+  opacity: 90%;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 20px;
+left: 500px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 300%);
+position: absolute;
+text-align: center;
+}
+
+
+.am {
+  position: absolute;
+  top: 10%;
+  left:1%;
+  background: black;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-gap: 100px;
+  position: absolute;
+  top: 5%;
+  right:1%;
+  overflow: hidden;
+  background: black;
+
+}
+
+.box {
+   padding: 20px;
+   font-size: 150%;
+   font-weight: 200;
+   font-family: acumin-pro, sans-serif;
+   font-weight: 100;
+   color: #DA8427;
+}
+
+.TESTTEST{
+  font-family: amador, sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  margin: 1%;
+}
+
+.history101{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.takenbake {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 200;
+  margin-left: 50px;
+  margin-top: 3%;
+  width: 470px;
+}
+.options {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.drinks{
+  float: right;
+  right: 10%;
+  margin-left: 1%;
+margin-top: 5%;
+padding: 2%;
+}
+
+.color {
+color: #DA8427;
+}
+footer {
+  position: bottom;
+  bottom: 50%;
+  padding:1%;
+  margin-top: 200px;
+  background-color: black;
+  color: white;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.jump {
+  text-align: center;
+}
